@@ -10,27 +10,42 @@
 
 <div class="colorflipper">
 <h4>Color Flipper</h4>
-  <ul class="change">
-    <li>
+  <span class="change">
       <a href="simple.html">simple</a>
-    </li>
-    <li>
+
       <a href="hex.html">hex</a>
-    </li>
-  </ul>
+  </span>
 </div>
+
+<div class="container">
+<h2>
+  Background Color:<span id="color">white</span>
+</h2>
+ <span class="color"></span>
+
+<button onclick="color()" class="btn" id="btn">
+  click me 
+</button>
+</div>
+
 </body>
 
 </html>
 
+<script src="sw.js"></script>
 <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .colorflipper{
     
     display: flex;
-    height: 100px;
-    padding: 10px;
+    height: 60px;
     flex-wrap: wrap;
-    background-color: pink;
+    background-color: white;
     justify-content:center;
     align-items: center;
 }
@@ -38,7 +53,7 @@ h4{
     flex: 40%;
     display: flex;
     height: 50px;
-    margin: 10px;
+   
     font-size: 25px;
     background-color: #fff;
     justify-content:center;
@@ -53,11 +68,25 @@ h4{
     justify-content:center;
     align-items: center;
 }
-li{
-    margin: 30px;
+.container {
+    text-align: center;
 }
 a{
     text-decoration: none;
     font-size: 25px;
+    margin: 30px;
 }
+h2{
+  display: flex;
+  flex: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  color:white;
+  height: 50px;
+  margin-bottom: 2.5rem;
+}
+
+
 </style>

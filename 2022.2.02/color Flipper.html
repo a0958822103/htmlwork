@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color Flipper (simple)</title>
+</head>
+<body>
+
+<div class="colorflipper">
+<h4>Color Flipper</h4>
+  <span class="change">
+      <a href="color Flipper.html">simple</a>
+
+      <a href="hex.html">hex</a>
+  </span>
+</div>
+
+<div class="container">
+<h2>
+  Background Color:<div id="color">white</div>
+</h2>
+ <span class="color"></span>
+
+<button onclick="color()" class="btn" id="btn">
+  click me 
+</button>
+</div>
+
+</body>
+
+</html>
+
+<script src="sw.js"></script>
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.colorflipper{
+    
+    display: flex;
+    height: 60px;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content:center;
+    align-items: center;
+}
+h4{
+    flex: 40%;
+    display: flex;
+    height: 50px;
+   
+    font-size: 25px;
+    background-color: white;
+    justify-content:center;
+    align-items: center;
+}
+.change{
+    flex: 40%;
+    display: flex;
+    height: 50px;
+    margin: 10px;
+    background-color: white;
+    justify-content:center;
+    align-items: center;
+}
+.container {
+  min-height: calc(100vh - 3rem);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  align-content: center;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    margin: 30px;
+}
+h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  color:white;
+  height: 50px;
+  margin-bottom: 2.5rem;
+}
+.btn{
+    background: transparent;
+}
+
+
+</style>

@@ -1,0 +1,21 @@
+{
+  "name": "htmlwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a0958822103/htmlwork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a0958822103/htmlwork/issues"
+  },
+  "homepage": "https://github.com/a0958822103/htmlwork#readme"
+  
+}

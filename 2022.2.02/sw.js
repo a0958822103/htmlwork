@@ -7,5 +7,4 @@ if(x = true){
 document.body.style.backgroundColor = colors[y];
 document.getElementById("color").innerHTML = colors[y];
             }
-
 }
